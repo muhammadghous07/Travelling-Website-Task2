@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WanderWise — Travel the world smarter</title>
+  <meta name="description" content="Multi-page traveling website demo built with semantic HTML, CSS, and JS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="WanderWise Home">
+      <span class="logo">W</span>
+      <span>WanderWise</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="policies.html">Policies</a>
+      <a class="nav-cta" href="contact.html">Plan a Trip</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobile-menu container" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="policies.html">Policies</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Find your next unforgettable adventure</h1>
+        <p>Handpicked destinations, honest tips, and beautiful stays — so you can travel smarter, not harder.</p>
+        <div class="actions">
+          <a class="button" href="#featured">Explore Destinations</a>
+          <a class="button secondary" href="contact.html">Get a Custom Plan</a>
+        </div>
+      </div>
+      <div class="card" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=1200&auto=format&fit=crop" alt="Mountains and lake">
+      </div>
+    </div>
+  </section>
+
+  <section id="featured">
+    <div class="container">
+      <h2 class="section-title">Featured Destinations</h2>
+      <p class="muted">Three ideas to get you started — all with sunshine, scenery, and stories.</p>
+      <div class="grid-3">
+        <article class="card">
+          <span class="badge">Top Pick</span>
+          <img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?q=80&w=1200&auto=format&fit=crop" alt="Santorini, Greece">
+          <h3>Santorini, Greece</h3>
+          <p>Cliffside sunsets, whitewashed villages, and Aegean breezes. Perfect for couples and photographers.</p>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1200&auto=format&fit=crop" alt="Kyoto, Japan">
+          <h3>Kyoto, Japan</h3>
+          <p>Temple gardens, tea houses, and timeless streets. Visit in spring for dreamy cherry blossoms.</p>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?q=80&w=1200&auto=format&fit=crop" alt="Maui, Hawaii">
+          <h3>Maui, Hawaii</h3>
+          <p>Volcanic sunrises and road-to-Hana waterfalls. Ideal for surfers, hikers, and ocean chasers.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">What travelers say</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <div class="user">
+            <img src="https://i.pravatar.cc/60?img=32" width="48" height="48" alt="User avatar">
+            <div><strong>Amna</strong><br><small class="muted">Karachi</small></div>
+          </div>
+          <p>“Flawless planning! We saved time and discovered hidden gems we’d have missed otherwise.”</p>
+        </div>
+        <div class="testimonial">
+          <div class="user">
+            <img src="https://i.pravatar.cc/60?img=15" width="48" height="48" alt="User avatar">
+            <div><strong>Omar</strong><br><small class="muted">Lahore</small></div>
+          </div>
+          <p>“The itinerary balanced culture and relaxation perfectly. 10/10 would book again.”</p>
+        </div>
+        <div class="testimonial">
+          <div class="user">
+            <img src="https://i.pravatar.cc/60?img=11" width="48" height="48" alt="User avatar">
+            <div><strong>Sofia</strong><br><small class="muted">Islamabad</small></div>
+          </div>
+          <p>“Fast responses, friendly service, and gorgeous hotel picks within budget.”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container row">
+    <div>
+      <strong>WanderWise</strong>
+      <p class="muted">Helping you explore the world with confidence and comfort.</p>
+      <p class="muted">Email: hello@wanderwise.example · Phone: +1 (555) 123-4567</p>
+      <div style="display:flex; gap:10px; margin-top:6px;">
+        <a href="#">Twitter</a> · <a href="#">Instagram</a> · <a href="#">Facebook</a>
+      </div>
+    </div>
+    <div>
+      <strong>Company</strong>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <strong>Resources</strong>
+      <ul>
+        <li><a href="https://www.atravelinglife.com/" target="_blank" rel="noopener">Inspiration</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Travel Guides</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container" style="margin-top:14px; font-size:14px;">
+    © <span id="year"></span> WanderWise — All rights reserved.
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>

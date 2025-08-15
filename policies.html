@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Policies — WanderWise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="WanderWise Home">
+      <span class="logo">W</span>
+      <span>WanderWise</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="policies.html">Policies</a>
+      <a class="nav-cta" href="contact.html">Plan a Trip</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobile-menu container" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="policies.html">Policies</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>Policies</h1>
+      <p class="muted">Our placeholder legal copy. Replace with your organization’s real policies.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="card">
+        <h2>Privacy Policy</h2>
+        <p>We respect your privacy. This demo website does not collect, store, or process personal data. Replace this section with your actual privacy practices, including data retention periods and user rights.</p>
+        <hr>
+        <h2>Terms & Conditions</h2>
+        <p>By using this site, you agree to abide by the terms of use, which include acceptable content, permitted usage, and disclaimers of liability. Replace with actual, jurisdiction-specific terms drafted by legal counsel.</p>
+        <hr>
+        <h2>Cookie Policy</h2>
+        <p>We use strictly necessary cookies for site functionality in this demo. Update this section with details on cookie categories, purposes, and user controls.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container row">
+    <div>
+      <strong>WanderWise</strong>
+      <p class="muted">Helping you explore the world with confidence and comfort.</p>
+      <p class="muted">Email: hello@wanderwise.example · Phone: +1 (555) 123-4567</p>
+      <div style="display:flex; gap:10px; margin-top:6px;">
+        <a href="#">Twitter</a> · <a href="#">Instagram</a> · <a href="#">Facebook</a>
+      </div>
+    </div>
+    <div>
+      <strong>Company</strong>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="policies.html">Policies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <strong>Resources</strong>
+      <ul>
+        <li><a href="https://www.atravelinglife.com/" target="_blank" rel="noopener">Inspiration</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Travel Guides</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container" style="margin-top:14px; font-size:14px;">
+    © <span id="year"></span> WanderWise — All rights reserved.
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>
